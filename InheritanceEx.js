@@ -37,7 +37,7 @@ class Studen extends Person
         //     sum += grade ;
         // }
         //return sum / this.grades.length ;
-        const total = this.grades.reduce((acc,c)=>acc + c,0);
+        const total = this.grades.reduce((acc,c)=> acc + c ,0);
         return total / this.grades.length ;
         
     }
